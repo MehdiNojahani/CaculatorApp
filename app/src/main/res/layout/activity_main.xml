@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_9"
+        app:layout_constraintTop_toBottomOf="@+id/backspace"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="9"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/multiply"
+        app:layout_constraintTop_toBottomOf="@+id/left_over"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_dot"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="."
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/equal"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_8"
+        app:layout_constraintTop_toBottomOf="@+id/clear"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray300"
+        android:gravity="center"
+        android:text="⌫"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/left_over"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_orange"
+        android:gravity="center"
+        android:text="×"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/division" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_orange"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiply" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="171dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_dot"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/operation" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_orange"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minus" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray300"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/backspace"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="16dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/equal"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_orange"
+        android:gravity="center"
+        android:text="="
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plus" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_orange"
+        android:gravity="center"
+        android:text="÷"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/left_over"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background_gray300"
+        android:gravity="center"
+        android:text="%"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/division"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
